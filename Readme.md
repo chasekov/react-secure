@@ -15,7 +15,7 @@ MERN stack implementation of Json Web Token Authentication
 
 ### Improvements / Stretch Goals
 * Use current user's browser and ip information to generate more secure json web token in order to combat session hijacking
-* Enforce password standards to avoid user's registering with vulnerable passwords
+* Enforce password standards to avoid users registering with vulnerable passwords
 
 
 
