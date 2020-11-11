@@ -63,7 +63,7 @@ class Signup extends Component {
     e.preventDefault();
     this.setState({ recentError: null });
 
-    if (this.state.password != this.state.password2) {
+    if (this.state.password !== this.state.password2) {
       this.setState({ recentError: "Passwords do not match!" });
       return;
     }
